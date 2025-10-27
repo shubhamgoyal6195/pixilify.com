@@ -8,10 +8,10 @@ const ToolCard = ({ icon, title, description, href, status = 'Live' }) => {
     : 'bg-gray-400 cursor-not-allowed';
 
   return (
-    <div className="flex flex-col p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100 dark:bg-zinc-900 dark:border-zinc-800">
+    <div className="flex flex-col p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100">
       <div className="text-4xl mb-4">{icon}</div>
-      <h2 className="text-2xl font-semibold text-gray-800 dark:text-zinc-50 mb-2">{title}</h2>
-      <p className="text-gray-600 dark:text-zinc-400 mb-4 flex-grow">{description}</p>
+      <h2 className="text-2xl font-semibold text-gray-800 mb-2">{title}</h2>
+      <p className="text-gray-600 mb-4 flex-grow">{description}</p>
       
       <Link 
         href={isLive ? href : '#'}

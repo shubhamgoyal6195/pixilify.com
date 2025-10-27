@@ -7,15 +7,15 @@ import ToolCard from '../components/ToolCard';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white dark:bg-black pt-8 pb-24">
+    <div className="min-h-screen bg-white pt-8 pb-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Main Headline */}
         <header className="text-center mb-8">
-          <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 dark:text-zinc-50 tracking-tight mb-4">
+          <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 tracking-tight mb-4">
             Image Magic: Fast, Free & Private.
           </h1>
-          <p className="text-xl text-gray-600 dark:text-zinc-400 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             The complete toolkit for instant photo editing. Resize, compress, and convert any image without ever leaving your browser.
           </p>
         </header>
@@ -33,10 +33,10 @@ export default function Home() {
 
         {/* Tools Grid Section Header */}
         <header className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-zinc-50 tracking-tight">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 tracking-tight">
                 Our Complete Toolkit
             </h2>
-            <p className="text-lg text-gray-600 dark:text-zinc-400 mt-2">
+            <p className="text-lg text-gray-600 mt-2">
                 A growing collection of fast, privacy-focused image tools for every need.
             </p>
         </header>
