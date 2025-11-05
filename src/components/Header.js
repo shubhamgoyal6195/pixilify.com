@@ -5,11 +5,11 @@ import Link from 'next/link';
 const Header = () => {
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+      <div className="max-w-6xl mx-auto p-4 flex justify-between items-center">
         
         {/* Logo/Brand */}
-        <Link href="/" className="text-3xl font-extrabold text-indigo-600 tracking-tight transition duration-150 hover:text-indigo-700">
-          Pixilify
+        <Link href="/" className="">
+          <img src="/image/pixilify.png" className="w-[150px]" alt="Logo"></img>
         </Link>
         
         {/* Navigation */}
