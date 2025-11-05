@@ -69,7 +69,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
+      <link rel="shortcut icon" type="image/png" href="/image/favicon.png"/>
       {/* 1. Google Tag Manager - Head Snippet */}
       {/* Placed as high as possible using next/script with strategy="afterInteractive" or "beforeInteractive" */}
       <Script id="google-tag-manager-head" strategy="afterInteractive">
