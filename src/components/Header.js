@@ -9,7 +9,7 @@ const Header = () => {
         
         {/* Logo/Brand */}
         <Link href="/" className="">
-          <img src="/image/pixilify.png" className="w-[150px]" alt="Logo"></img>
+          <img src="/img/pixilify.png" className="w-[150px]" alt="Logo"></img>
         </Link>
         
         {/* Navigation */}
