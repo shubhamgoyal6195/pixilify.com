@@ -83,7 +83,7 @@ export default function RootLayout({ children }) {
       </Script>
       <body className="bg-gray-100 overflow-x-hidden">
         {/* 2. Google Tag Manager - NoScript Snippet */}
-        {/* Must be placed IMMEDIATELY after the opening <body> tag */}
+        {/* Must be placed IMMEDIATELY after the opening <body> ssstag */}
         <noscript>
           <iframe 
             src={`https://www.googletagmanager.com/ns.html?id=GTM-P9GX5Z5R`}
