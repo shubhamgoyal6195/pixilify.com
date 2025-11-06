@@ -104,12 +104,12 @@ const ImageResizerClient = () => {
 
     return (
         <div className="p-8 max-w-6xl mx-auto">
-            <h1 className="text-4xl font-bold text-gray-800 mb-8">Image Resizer & Cropper</h1>
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8">Image Resizer & Cropper</h1>
 
             {/* 💡 UPDATED Upload Area/Placeholder */}
             {!imageSrc && (
                 <label className="flex flex-col items-center justify-center w-full h-80 border-4 border-dashed rounded-md cursor-pointer bg-[#6e99f4] transition duration-300 border-[#5c85dc] shadow-inner">
-                    <div className="flex flex-col items-center justify-center pt-5 pb-6">
+                    <div className="flex flex-col items-center text-center justify-center pt-5 pb-6">
                         {/* SVG Icon for Upload */}
                         <svg className="w-12 h-12 mb-4 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 014 4.903H7zM12 11v6m-3-3h6"></path></svg>
                         <p className="mb-2 text-lg text-gray-700"><span className="font-bold  text-black">Click to upload</span> or drag and drop an image</p>
