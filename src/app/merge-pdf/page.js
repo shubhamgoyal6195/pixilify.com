@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { PDFDocument } from 'pdf-lib';
+import {secondaryTools} from '../../utils/master';
 
 export default function MergePdfPage() {
     const [pdfFiles, setPdfFiles] = useState([]);
@@ -78,62 +79,7 @@ export default function MergePdfPage() {
 
     const ResultScreen = ({ downloadUrl, onBack }) => {
         // Placeholder links/actions (You'll need to define actual routes for these)
-        const secondaryTools = [
-            {
-                name: 'Image Resizer / Cropper',
-                icon: (
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v-4m0 4h-4m4 0l-5-5" />
-                    </svg>
-                ),
-                link: '/image-resizer'
-            },
-            {
-                name: 'Image Converter',
-                icon: (
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4" />
-                    </svg>
-                ),
-                link: '/image-converter'
-            },
-            {
-                name: 'Image Compressor',
-                icon: (
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 9V5m0 0v4m0 0h4m-4 0h-4m-9 11l4-4m0 0l4-4m-4 4l-4 4m4-4v4m0 0h-4m4 0h4m-4-4v-4m0 4h4" />
-                    </svg>
-                ),
-                link: '/image-compressor'
-            },
-            {
-                name: 'Photo to PDF Converter',
-                icon: (
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12M17 19H7" />
-                    </svg>
-                ),
-                link: '/image-to-pdf'
-            },
-            {
-                name: 'Image Filters & Effects',
-                icon: (
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M16 7a2 2 0 012-2h2m0 0l2 2m-2-2v2" />
-                    </svg>
-                ),
-                link: '/image-filters'
-            },
-            {
-                name: 'Image Color Extractor',
-                icon: (
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M16 7a2 2 0 012-2h2m0 0l2 2m-2-2v2" />
-                    </svg>
-                ),
-                link: '/image-color-extractor'
-            },
-        ];
+     
 
         return (
             <div className="flex flex-col items-center justify-center p-8 min-h-[500px] bg-gray-50">
@@ -227,7 +173,7 @@ export default function MergePdfPage() {
                 <h2 className="text-2xl font-semibold mb-4 text-gray-800">Why Choose Pixilify PDF Merger?</h2>
                 <p className="text-gray-600 mb-3">Pixilify's <strong>PDF Merger Tool</strong> is designed with<strong> privacy</strong> in mind — all merging happens<strong> 100% locally</strong> in your browser. That means your files are <strong>never uploaded</strong> or stored anywhere.</p>
                 <ul className="list-disc list-inside text-gray-600 space-y-1"><li>💻 Merge PDFs instantly in your browser.</li><li>🔒 No file uploads — everything stays on your device.</li><li>🪶 Lightweight, responsive, and mobile-friendly.</li><li>📁 Download your final merged PDF in one click.</li></ul>
-                <p className="text-gray-500 mt-4 text-sm">© {new Date().getFullYear()} Pixilify — Free Online PDF Tools</p>
+                {/* <p className="text-gray-500 mt-4 text-sm">© {new Date().getFullYear()} Pixilify — Free Online PDF Tools</p> */}
             </footer>
         </div>
     );

@@ -97,7 +97,7 @@ export default function Home() {
         </div>
 
         {/* Footer Note */}
-        <footer className="mt-24 text-center text-sm text-gray-400">
+        {/* <footer className="mt-24 text-center text-sm text-gray-400">
           Also available:{" "}
           <Link
             href="/image-converter"
@@ -113,7 +113,7 @@ export default function Home() {
             Image Compressor
           </Link>
           .
-        </footer>
+        </footer> */}
       </div>
     </div>
   );
