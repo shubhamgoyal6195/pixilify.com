@@ -4,7 +4,7 @@ const bottomLinks = [
   { name: 'About Us', link: '/about' },
   { name: 'Privacy', link: '/privacy' },
   { name: 'Terms', link: '/terms' },
-  { name: 'Contact', link: '/contact' },
+  { name: 'Contact', link: '/contact-us' },
 ];
 
 const MegaFooter = () => {
