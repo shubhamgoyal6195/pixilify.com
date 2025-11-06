@@ -87,6 +87,20 @@ const Header = () => {
             >
              Image Color Extractor
             </Link>
+            <Link
+              href="/split-pdf"
+              onClick={() => setIsOpen(false)}
+              className="text-gray-600 hover:text-indigo-600 font-medium"
+            >
+             Split PDF
+            </Link>
+            <Link
+              href="/merge-pdf"
+              onClick={() => setIsOpen(false)}
+              className="text-gray-600 hover:text-indigo-600 font-medium"
+            >
+             Merge PDF
+            </Link>
           </nav>
         </div>
       )}

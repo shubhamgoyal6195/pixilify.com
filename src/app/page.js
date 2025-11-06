@@ -12,7 +12,7 @@ export default function Home() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Headline */}
         <header className="text-center mb-8">
-          <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 tracking-tight mb-4">
+          <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight mb-4">
             Image Magic: Fast, Free & Private.
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
