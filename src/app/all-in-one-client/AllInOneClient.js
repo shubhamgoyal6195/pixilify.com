@@ -284,7 +284,7 @@ const AllInOneClient = () => {
               </svg>
               <p className="text-2xl font-semibold">Select Images to Start</p>
             </div>
-            <div className="flex flex-col items-center justify-center pt-5 pb-6">
+            <div className="flex flex-col text-center items-center justify-center pt-5 pb-6">
              
               <p className="mb-2 text-lg text-gray-700">
                 <span className="font-bold text-black">

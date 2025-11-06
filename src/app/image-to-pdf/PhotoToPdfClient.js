@@ -115,7 +115,7 @@ const PhotoToPdfClient = () => {
 
             {/* Upload Area (unchanged) */}
             <label className="flex flex-col items-center justify-center w-full h-40 border-4 border-dashed rounded-md cursor-pointer bg-[#f4e66e] transition duration-300 border-[#dccf5c] shadow-inner hover:bg-[#ffe88a]">
-                <div className="flex flex-col items-center justify-center pt-5 pb-6">
+                <div className="flex flex-col text-center items-center justify-center pt-5 pb-6">
                     <svg className="w-12 h-12 mb-4 text-gray-800" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6zM6 20V4h7v5h5v11H6zM13 14H8v-2h5v2zm3-4H8V8h8v2z"/></svg>
                     <p className="mb-2 text-lg text-gray-700"><span className="font-bold text-gray-800">Click to upload</span> or drag and drop images</p>
                     <p className="text-sm text-gray-600">JPG, PNG, WEBP (Select Multiple)</p>

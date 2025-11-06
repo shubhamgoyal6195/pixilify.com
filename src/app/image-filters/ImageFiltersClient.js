@@ -199,7 +199,7 @@ const ImageFiltersClient = () => {
             {/* Upload Area */}
             {!imageSrc && (
                 <label className="flex flex-col items-center justify-center w-full h-80 border-4 border-dashed rounded-md cursor-pointer bg-[#6ef47e] transition duration-300 border-[#5cdc6a] shadow-inner hover:bg-[#8aff97]">
-                    <div className="flex flex-col items-center justify-center pt-5 pb-6">
+                    <div className="flex flex-col text-center items-center justify-center pt-5 pb-6">
                         <svg className="w-12 h-12 mb-4 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h14a2 2 0 012 2v12a4 4 0 01-4 4H7zM17 9H7m10 4H7m8 4H7"/></svg>
                         <p className="mb-2 text-lg text-gray-700"><span className="font-bold text-gray-800">Click to upload</span> or drag and drop an image</p>
                         <p className="text-sm text-gray-600">JPG, PNG, WEBP (Using Konva for reliable effects)</p>
