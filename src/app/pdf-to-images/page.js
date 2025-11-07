@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useRef, useCallback, useEffect } from 'react';
-import { Document, Page, pdfjs } from 'react-pdf';
 // Mocking secondaryTools since the external file cannot be resolved
 const secondaryTools = [
     { name: 'Compress PDF', link: '#', icon: '🔗' },
