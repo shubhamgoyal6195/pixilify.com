@@ -86,7 +86,7 @@ export const moreTools = [
         "title": "PDF to Images",
         "description": "Convert each page of your PDF into a high-quality JPG or PNG — directly in your browser, no upload needed.",
         "href": "/pdf-to-images",
-        "status": "Coming Soon",
+        "status": "Live",
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' class='w-full h-full text-yellow-600'><rect x='3' y='4' width='9' height='12' rx='1' ry='1' fill='#FEF3C7' stroke='currentColor'/><rect x='12' y='8' width='9' height='12' rx='1' ry='1' fill='#FCD34D' stroke='currentColor'/><circle cx='16.5' cy='13.5' r='2' fill='#F59E0B'/><path d='M14 17l2-2 2 2' stroke='#D97706'/></svg>"
     },
     {
