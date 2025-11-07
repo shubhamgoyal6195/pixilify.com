@@ -82,6 +82,14 @@ export const moreTools = [
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' class='w-full h-full text-orange-600'><rect x='3' y='4' width='8' height='10' rx='1' ry='1' fill='#FED7AA' stroke='currentColor'/><rect x='13' y='4' width='8' height='10' rx='1' ry='1' fill='#FDBA74' stroke='currentColor'/><line x1='12' y1='3' x2='12' y2='21' stroke='#DD6B20' stroke-dasharray='3 2'/><polyline points='9 7 7 9 9 11' fill='none' stroke='#DD6B20'/><polyline points='15 7 17 9 15 11' fill='none' stroke='#DD6B20'/></svg>"
     },
     {
+        "id": 9,
+        "title": "PDF to Images",
+        "description": "Convert each page of your PDF into a high-quality JPG or PNG — directly in your browser, no upload needed.",
+        "href": "/pdf-to-images",
+        "status": "Coming Soon",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' class='w-full h-full text-yellow-600'><rect x='3' y='4' width='9' height='12' rx='1' ry='1' fill='#FEF3C7' stroke='currentColor'/><rect x='12' y='8' width='9' height='12' rx='1' ry='1' fill='#FCD34D' stroke='currentColor'/><circle cx='16.5' cy='13.5' r='2' fill='#F59E0B'/><path d='M14 17l2-2 2 2' stroke='#D97706'/></svg>"
+    },
+    {
         "id": 4,
         "title": "Image Converter",
         "description": "Convert formats like JPG ⇄ PNG ⇄ WEBP locally without any quality loss.",
@@ -120,14 +128,6 @@ export const moreTools = [
         "href": "/image-color-extractor",
         "status": "Live",
         "icon": "🌈"
-    },
-    {
-        "id": 9,
-        "title": "PDF to Images",
-        "description": "Convert each page of your PDF into a high-quality JPG or PNG — directly in your browser, no upload needed.",
-        "href": "/pdf-to-images",
-        "status": "Coming Soon",
-        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' class='w-full h-full text-yellow-600'><rect x='3' y='4' width='9' height='12' rx='1' ry='1' fill='#FEF3C7' stroke='currentColor'/><rect x='12' y='8' width='9' height='12' rx='1' ry='1' fill='#FCD34D' stroke='currentColor'/><circle cx='16.5' cy='13.5' r='2' fill='#F59E0B'/><path d='M14 17l2-2 2 2' stroke='#D97706'/></svg>"
     }
 ];
 export const megaFooterLinks = {
