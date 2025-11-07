@@ -184,7 +184,7 @@ export default function PdftoImages() {
 
     const InitialUploadScreen = () => (
         <div className="relative">
-            <button
+            {/* <button
                 onClick={() => window.history.back()}
                 className="text-gray-600 hover:text-red-600 transition duration-150 absolute top-4 left-4 p-2 rounded-full hover:bg-gray-200"
                 title="Go back to the previous page"
@@ -192,7 +192,7 @@ export default function PdftoImages() {
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
                 </svg>
-            </button>
+            </button> */}
             <section className="text-center px-4 py-12 bg-gradient-to-b from-blue-100 to-blue-50 border-b border-blue-200">
                 <h1 className="text-3xl md:text-5xl font-bold mb-2">PDF to Image Converter</h1>
                 <p className="text-gray-700 text-lg">Convert PDF pages to JPG or PNG images, right in your browser.</p>
